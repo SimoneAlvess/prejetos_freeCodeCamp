@@ -1,9 +1,5 @@
 <h1 align="center"> Projetos </h1>
 
-<p align="center">
-Atvidades desenvolvidas no curso da freeCodeCamp. <br/>
-</p>
-
 ## 🚀 Tecnologias
 
 Esses projetos foram desenvolvidos com as seguintes tecnologias:
