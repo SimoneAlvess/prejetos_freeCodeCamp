@@ -1,5 +1,3 @@
-<h1 align="center"> Projetos </h1>
-
 ## 🚀 Tecnologias
 
 Esses projetos foram desenvolvidos com as seguintes tecnologias:
