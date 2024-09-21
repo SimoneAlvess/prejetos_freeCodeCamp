@@ -23,6 +23,7 @@ Esses projetos foram desenvolvidos com as seguintes tecnologias:
 - Rótulo Nutricional: https://simonealvess.github.io/projetos_freeCodeCamp/Projeto07/
 - Quiz: https://simonealvess.github.io/projetos_freeCodeCamp/Projeto08/
 
+##
 <p>📌 Projetos desenvolvido aparti do curso da <a href="https://www.freecodecamp.org/portuguese/learn/">freeCodeCamp</a></p>
 
   
