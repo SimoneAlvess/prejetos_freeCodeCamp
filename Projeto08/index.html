@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Questinário desenvolvido no curso de HTML e CSS do freeCodeCamp" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FreeCodeCamp • Questionário</title>
+  </head>
+  <body>
+    <header>
+      <img id="logo" alt="freeCodeCamp" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" />
+      <h1>HTML/CSS Quiz</h1>
+      <nav>
+        <ul>
+          <li><a href="#student-info" accesskey="i">INFO</a></li>
+          <li><a href="#html-questions" accesskey="h">HTML</a></li>
+          <li><a href="#css-questions" accesskey="c">CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
+        <!-- Section one -->
+        <section role="region" aria-labelledby="student-info">
+          <h2 id="student-info">Informações do Estudante</h2>
+
+          <div class="info">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" />
+          </div>
+
+          <div class="info">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" />
+          </div>
+
+          <div class="info">
+            <label for="date">Data de nascimento</label>
+            <input type="date" id="date" name="date" placeholder="Informe sua data de nascimento" />
+          </div>
+        </section>
+
+        <!-- Section two -->
+        <section role="region" aria-labelledby="html-questions">
+          <h2 id="html-questions">HTML</h2>
+
+          <div class="question-block">
+            <h3><span class="sr-only">Question </span>1</h3>
+            <fieldset class="question" name="html-question-one">
+              <legend>A tag &lt;div&gt; é a única tag que pode ser utilizada para criar um layout em uma página web?</legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q1-a1"> <input type="radio" id="q1-a1" value="true" name="resposta" /> Verdadeiro </label>
+                </li>
+                <li>
+                  <label for="q1-a2"> <input type="radio" id="q1-a2" value="false" name="resposta" /> Falso </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+
+          <div class="question-block">
+            <h3><span class="sr-only">Question </span>2</h3>
+            <fieldset class="question" name="html-question-two">
+              <legend>O elemento &lt;legend&gt; representa uma legenda para o conteúdo de seu elemento pai &lt;fieldset&gt;?</legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q2-a1"> <input type="radio" id="q2-a1" value="true" name="resposta2" /> Verdadeiro </label>
+                </li>
+                <li>
+                  <label for="q2-a2"> <input type="radio" id="q2-a2" value="false" name="resposta2" /> Falso </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+        </section>
+        <!-- Section three -->
+        <section role="region" aria-labelledby="css-questions">
+          <h2 id="css-questions">CSS</h2>
+          <div class="formrow">
+            <div class="question-block">
+              <label for="css-question-one">O CSS (Cascading Style Sheets) é utilizado exclusivamente para definir a estrutura e o conteúdo de uma página web?</label>
+            </div>
+
+            <div class="answer">
+              <select name="css-question-one" id="css-question-one" required>
+                <option value="">Selecione a opção</option>
+                <option value="yes">Sim</option>
+                <option value="no">Não</option>
+              </select>
+            </div>
+
+            <div class="question-block">
+              <label for="css-question-two">Você tem alguma dúvida:</label>
+            </div>
+
+            <div class="answer">
+              <textarea name="css-question-two" id="css-question-two" cols="47" rows="8" placeholder="Escreva sua dúvida aqui..."></textarea>
+            </div>
+          </div>
+        </section>
+
+        <button type="submit">Enviar Respostas</button>
+      </form>
+    </main>
+    <footer>
+      <address>
+        <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+        San Francisco<br />
+        California<br />
+        BRA
+      </address>
+    </footer>
+  </body>
+</html>
