@@ -24,7 +24,7 @@ Esses projetos foram desenvolvidos com as seguintes tecnologias:
 - Quiz: https://simonealvess.github.io/projetos_freeCodeCamp/Projeto08/
 
 ##
-<p>📌 Projetos desenvolvidos a parti do curso da <a href="https://www.freecodecamp.org/portuguese/learn/">freeCodeCamp</a></p>
+<p>📌 Projetos desenvolvidos a partir do curso da <a href="https://www.freecodecamp.org/portuguese/learn/">freeCodeCamp</a></p>
 
   
  
